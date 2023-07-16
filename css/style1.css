@@ -1,0 +1,99 @@
+#heading{
+  margin-top: 20px;
+  width:100%;
+  height:40px;
+  background-color:  #0d9d8d;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+#heading_content{
+  color: white;
+  font-size:large;
+}
+#head{
+  height: 30px;
+  background-color: #011815;
+}
+.border {
+  border: 2px solid black;
+  padding: 10px;
+  margin:5px;
+}
+
+.border h2 {
+  margin: 20px;
+  border-bottom: 2px solid rgb(12, 12, 12);
+  padding-bottom: 5px;
+}
+#abc{
+  margin:15px 0 0 25px;
+  color: blue;
+}
+.btn{
+  padding:0 0 0 0;
+  
+  justify-content: center;
+}
+.footer{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4px;
+}
+.button-column {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  justify-content:center;
+  padding:2px;
+  margin:4px;
+}
+#btn-2{
+  background-color: #0d9d8d;
+}
+.first{
+  margin:4px 0 2px 4px;
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+
+
+.first label {
+  display: flex;
+  align-items: center;
+}
+
+.first span {
+  flex-basis: 100px;
+}
+
+.first input {
+  background-color: beige;
+  width: 50%;
+}
+#cont{
+  border:ridge 1px slategray;
+}
+.user-options a{
+margin-left: 15px;
+text-decoration: none;
+color: #f5f3f3;
+justify-content:center;
+align-items:center;
+margin-bottom: 4px;
+padding:0px 8px;
+cursor: pointer;
+font-size: 18px;
+}
+.user-options {
+margin-left: 80%;
+
+}
+.nav{
+display: flex;
+float:left ;
+justify-content: center;
+align-items: center;
+}

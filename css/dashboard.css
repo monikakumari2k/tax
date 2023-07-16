@@ -1,0 +1,64 @@
+.box{
+    border:ridge 2px gray;
+    margin:4px;
+    
+}
+#search{
+    color:blueviolet;
+    margin-left: 8px;
+
+}
+#heading{
+    justify-content: left;
+    
+}
+#heading_content{
+    padding-left:18px;
+    font-size: 24px;
+}
+#contain{
+    display:flex;
+    flex-direction:row;
+    margin-left: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right:8px;
+    justify-content: space-between;
+}
+#bttn{
+    background-color:blue;color:white;
+}
+#startDate{
+    width:350px;
+}
+#endDate{
+    width:350px;
+}
+#report{
+    display: flex;
+   justify-content: center;
+   text-decoration: underline;
+}
+table {
+    border-collapse: collapse;
+    width: 85%;
+    margin-left: 60px;
+    margin-right: 8px;
+
+  }
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+  th {
+    background-color: #f2f2f2;
+  }
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
