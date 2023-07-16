@@ -52,12 +52,12 @@
   <div id="resultContainer">
     <h5 id="report">REPORT</h5>
     <?php
-    // Check if the form is submitted
+    
     if (isset($_POST['fetchData'])) {
       $startDate = $_POST['startDate'];
       $endDate = $_POST['endDate'];
 
-      // Connect to the database (replace with your database credentials)
+      
       $servername = "localhost";
       $username = "root";
       $password = "";
@@ -65,19 +65,18 @@
 
       $conn = new mysqli($servername, $username, $password, $dbname);
 
-      // Check connection
+      
       if ($conn->connect_error) {
         die("Connection failed: " . $conn->connect_error);
       }
 
-      // Construct the SQL query
       $sql = "SELECT PNO,username,level,date FROM users WHERE date BETWEEN '$startDate' AND '$endDate'";
 
-      // Execute the query
+    
       $result = $conn->query($sql);
 
       if ($result->num_rows > 0) {
-        // Generate the table HTML
+       
         
 
         echo '<table><tr><th>PNO</th><th>Name</th><th>level</th><th>Registration Date</th></tr>';
@@ -89,7 +88,7 @@
         echo "No results found.";
       }
 
-      // Close the database connection
+      
       $conn->close();
     }
     ?>
